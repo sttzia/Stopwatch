@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #2d4b6d;
+}
+.container {
+  text-align: center;
+}
+.result {
+  font-size: 3rem;
+  color: #1d2630;
+  background: #ffffff;
+  padding: 30px 10px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.result span {
+  width: 3rem;
+}
+button {
+  margin: 1rem;
+  border: none;
+  outline: none;
+  height: 43px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+#buttonStart {
+  background: green;
+  color: white;
+}
+#buttonStop {
+  background: red;
+  color: white;
+}
+#buttonReset {
+  background: cornflowerblue;
+  color: white;
+}
